@@ -5,11 +5,10 @@
     <a-scene antialias="true">
 	
 	<a-assets>
-	<img id="beach" src="images/beach.jpg" crossorigin="anonymous" />
-        <img id="rio" src="images/rio.jpg" crossorigin="anonymous" />
+	<img id="wintergarden" src="images/wintergarden.JPG" crossorigin="anonymous" />
+        <img id="napoleon" src="images/napoleon.JPG" crossorigin="anonymous" />
         <img id="beach2" src="images/beach2.jpg" crossorigin="anonymous" />
         <img id="mansion" src="images/mansion.jpg" crossorigin="anonymous" />
-        <img id="snow" src="images/snowboarding.jpg" crossorigin="anonymous" />
 		<img id="grass" src="images/grass.jpg" crossorigin="anonymous" />
 		<img id="crate" src="images/crate.jpg" crossorigin="anonymous" />
 		<img id="earth" src="images/earth-sphere.jpg" crossorigin="anonymous" />
@@ -42,20 +41,20 @@
      <a-entity
         position="0 2 2.5"
 	gltf-model="models/Hamburger.glb"
-        scale=".2 .2 .2" 
+        scale=".002 .002 .002" 
         rotation="0 180 0"
         value="Six O'Clock"
         align="center"
-        event-set__enter="_event: mouseenter; _target: a-sky; material.src: #"     
+        event-set__enter="_event: mouseenter; _target: a-sky; material.src: #napoleon"     
       ></a-entity> 
      <a-entity
         position="2 2 2.5"
 	gltf-model="models/Chicken.glb"
-        scale=".2 .2 .2" 
+        scale=".002 .002 .002" 
         rotation="0 180 0"
         value="Six O'Clock"
         align="center"
-        event-set__enter="_event: mouseenter; _target: a-sky; material.src: #"     
+        event-set__enter="_event: mouseenter; _target: a-sky; material.src: #wintergarden"     
       ></a-entity> 
     <a-camera>
         <a-cursor color=#FF7400></a-cursor>
