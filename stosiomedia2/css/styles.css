@@ -1,0 +1,337 @@
+@charset "utf-8";
+
+body {
+    background-color: antiquewhite;
+}
+
+figure {
+	margin: 5px;
+	padding: 0px;
+	width: 61px;
+}
+
+a {
+	color: #008FFF;
+}
+
+a visited {
+	color: #008FFF;
+}
+
+
+
+figcaption {
+	font-weight: bold;
+	text-align: center;
+}
+.align-center {
+	text-align: center;
+	display: inline;
+	position: static;
+}
+
+
+#register {
+	margin-left: 134px;
+	margin-top: 19px;
+	margin-right: 10px;
+}
+
+
+
+.about-footer{
+    margin-top: 51px;
+}
+
+.videos{
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+}
+
+
+main h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+label {
+	margin-right: 29px;
+}
+body footer img {
+    float: right;
+    margin-right: 36px;	
+}
+
+header{
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+	font-family: "Times New Roman", "serif";
+	font-size: small;
+	clear: both;
+; 	margin-top: -20px;
+}
+
+
+footer{
+    margin-top: 10px;
+    position: relative;
+    display: block;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #FFCC00;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.about-section {
+    float: right;
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 95px;
+    clear: both;
+    font-size: large;
+}
+
+.about-section h1 {
+    text-align: center;
+}
+
+.about-section p {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+.about-img {
+	max-width: 38%;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.contact-center h1 {
+	text-align: center;
+}
+
+.email-img {
+	position: absolute;
+	padding-left: 0px;
+	margin-left: 25%;
+	margin-right: 100%;
+	text-align: center;
+}
+
+.IG-img {
+	position: absolute;
+	margin-left: 65%;
+	margin-right: 9%;
+	text-align: center;
+}
+
+.contact-footer{
+	margin-top: 206px;
+
+}
+
+.index-footer{
+    margin-top: 46px;	
+}
+@media screen and (max-width: 768px) {
+.about-img {
+	max-width: 95%;
+	text-align: center;
+	margin-left: 10px;
+	}
+	
+	.about-section {
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-bottom: 20px;
+	position: relative;
+	}
+	.about-section h1 {
+		text-align: center;
+	}
+	.about-section p {
+    	text-align: left;
+	}
+	
+	
+	
+	.about-footer {
+	margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+	float: right;
+	display: block;
+	background-color: #333;
+  }
+.about-img {
+    max-width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+	.about-img {
+	max-width: 100%;
+	text-align: center;
+	margin-left: 10px;
+	}
+	
+	.about-section {
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-bottom: 20px;
+	position: relative;
+	}
+	.about-section h1 {
+		text-align: center;
+	}
+	.about-section p {
+    	text-align: left;
+	}
+	
+	
+	
+	.about-footer {
+	margin-top: 10px;
+	}
+	
+	.email-img{
+	display: block;
+	position: static;
+	padding: 10px;
+	width: 50%;
+	margin-left: 122px;
+	}
+	
+	.email-img h2{
+	margin-left: 3px;
+	}
+	
+	.IG-img{
+    position: static;
+    margin-left: 121px;
+    display: block;
+    margin-top: 10px;
+    width: 50%;
+    margin-bottom: -190px;
+	}
+	
+	#register{
+    margin-left: 40px;
+	}
+	
+	.survey-heading p {
+    text-align: center;
+    margin-left: -129px;
+	}
+	
+	.survey-heading h2 {
+    text-align: center;
+    margin-left: -142px;
+	}
+}
+	
+	header {
+    text-align: center;
+
+}
+.col-xl-13 {
+}
